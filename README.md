@@ -1,1 +1,1 @@
-# XPS-workspace
+# XPS workspace
