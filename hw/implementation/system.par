@@ -1,7 +1,7 @@
 Release 14.4 par P.49d (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-goeders-ssh4::  Tue May 08 11:14:00 2018
+phoenix::  Thu May 10 16:59:54 2018
 
 par -w -ol high system_map.ncd system.ncd system.pcf 
 
@@ -16,6 +16,12 @@ parts you will be using. This will allow the tools to take advantage of any avai
 enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping
 level" is available at support.xilinx.com.
    "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is
+targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any available performance and functional
+enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
+   "nandgate" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
 This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is
 targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the
 parts you will be using. This will allow the tools to take advantage of any available performance and functional
@@ -42,45 +48,45 @@ Device Utilization Summary:
 
    Number of OLOGICs                         1 out of 640     1%
    Number of RAMB16s                        16 out of 160    10%
-   Number of Slices                       4389 out of 26624  16%
-      Number of SLICEMs                    274 out of 13312   2%
+   Number of Slices                       4560 out of 26624  17%
+      Number of SLICEMs                    282 out of 13312   2%
 
 
 
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 6 secs 
-Finished initial Timing Analysis.  REAL time: 6 secs 
+Starting initial Timing Analysis.  REAL time: 10 secs 
+Finished initial Timing Analysis.  REAL time: 11 secs 
 
 WARNING:Par:288 - The signal dlmb_LMB_ABus<31> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal dlmb_LMB_ABus<30> has no load.  PAR will not attempt to route this signal.
 Starting Router
 
 
-Phase  1  : 28728 unrouted;      REAL time: 7 secs 
+Phase  1  : 31680 unrouted;      REAL time: 12 secs 
 
-Phase  2  : 24573 unrouted;      REAL time: 7 secs 
+Phase  2  : 27391 unrouted;      REAL time: 12 secs 
 
-Phase  3  : 8235 unrouted;      REAL time: 9 secs 
+Phase  3  : 9972 unrouted;      REAL time: 15 secs 
 
-Phase  4  : 8237 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+Phase  4  : 9977 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 19 secs 
 
 Updating file: system.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
-Total REAL time to Router completion: 16 secs 
-Total CPU time to Router completion: 15 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 27 secs 
+Total REAL time to Router completion: 27 secs 
+Total CPU time to Router completion: 27 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -98,49 +104,49 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|     clk_100_0000MHz |BUFGCTRL_X0Y31| No   | 2862 |  0.622     |  3.168      |
+|     clk_100_0000MHz |BUFGCTRL_X0Y31| No   | 3154 |  0.584     |  3.168      |
 +---------------------+--------------+------+------+------------+-------------+
-|ring_osc_3/ring_osc_ |              |      |      |            |             |
-|3/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y1| No   |   60 |  0.143     |  2.871      |
-+---------------------+--------------+------+------+------------+-------------+
-|     mdm_0/Dbg_Clk_1 |BUFGCTRL_X0Y27| No   |  162 |  0.435     |  2.964      |
-+---------------------+--------------+------+------+------------+-------------+
-|ring_osc_5/ring_osc_ |              |      |      |            |             |
-|5/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf |BUFGCTRL_X0Y30| No   |   60 |  0.118     |  2.883      |
+|     mdm_0/Dbg_Clk_1 |BUFGCTRL_X0Y27| No   |  165 |  0.451     |  3.009      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_7/ring_osc_ |              |      |      |            |             |
-|7/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y2| No   |   62 |  0.186     |  2.801      |
+|7/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y4| No   |   38 |  0.078     |  2.817      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_6/ring_osc_ |              |      |      |            |             |
-|6/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y4| No   |   56 |  0.195     |  2.724      |
+|6/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output |BUFGCTRL_X0Y28| No   |   36 |  0.095     |  2.827      |
++---------------------+--------------+------+------+------------+-------------+
+|ring_osc_5/ring_osc_ |              |      |      |            |             |
+|5/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y3| No   |   35 |  0.103     |  2.701      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_4/ring_osc_ |              |      |      |            |             |
-|4/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf |BUFGCTRL_X0Y28| No   |   60 |  0.183     |  2.833      |
+|4/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output |BUFGCTRL_X0Y29| No   |   36 |  0.106     |  2.733      |
++---------------------+--------------+------+------+------------+-------------+
+|ring_osc_3/ring_osc_ |              |      |      |            |             |
+|3/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y2| No   |   40 |  0.082     |  2.857      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_2/ring_osc_ |              |      |      |            |             |
-|2/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y3| No   |   64 |  0.105     |  2.878      |
+|2/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output |BUFGCTRL_X0Y30| No   |   36 |  0.093     |  2.706      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_1/ring_osc_ |              |      |      |            |             |
-|1/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y0| No   |   61 |  0.129     |  2.826      |
+|1/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y1| No   |   35 |  0.036     |  2.781      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_0/ring_osc_ |              |      |      |            |             |
-|0/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf |BUFGCTRL_X0Y29| No   |   55 |  0.156     |  2.784      |
-+---------------------+--------------+------+------+------------+-------------+
-|  mdm_0/Dbg_Update_1 |         Local|      |   36 |  1.731     |  2.327      |
-+---------------------+--------------+------+------+------------+-------------+
-|fpga_0_clk_1_sys_clk |              |      |      |            |             |
-|          _pin_IBUFG |         Local|      |    5 |  0.714     |  2.276      |
+|0/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y0| No   |   37 |  0.044     |  2.754      |
 +---------------------+--------------+------+------+------------+-------------+
 |xps_timer_0_Interrup |              |      |      |            |             |
-|                   t |         Local|      |    1 |  0.000     |  1.377      |
+|                   t |         Local|      |    1 |  0.000     |  0.858      |
++---------------------+--------------+------+------+------------+-------------+
+|  mdm_0/Dbg_Update_1 |         Local|      |   39 |  2.797     |  3.752      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_clk_1_sys_clk |              |      |      |            |             |
+|          _pin_IBUFG |         Local|      |    5 |  0.347     |  2.328      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -160,13 +166,13 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.431ns|     9.569ns|       0|           0
-  G_DCM0_CLK0 = PERIOD TIMEGRP         "clo | HOLD        |     0.404ns|            |       0|           0
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.446ns|     9.554ns|       0|           0
+  G_DCM0_CLK0 = PERIOD TIMEGRP         "clo | HOLD        |     0.435ns|            |       0|           0
   ck_generator_0_clock_generator_0_SIG_DCM0 |             |            |            |        |            
   _CLK0" TS_sys_clk_pin         HIGH 50%    |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |     7.642ns|     2.358ns|       0|           0
-  pin" 100 MHz HIGH 50%                     | HOLD        |     0.649ns|            |       0|           0
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |     8.212ns|     1.788ns|       0|           0
+  pin" 100 MHz HIGH 50%                     | HOLD        |     0.516ns|            |       0|           0
                                             | MINPERIOD   |     3.334ns|     6.666ns|       0|           0
 ----------------------------------------------------------------------------------------------------------
 
@@ -181,8 +187,8 @@ Derived Constraints for TS_sys_clk_pin
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.569ns|            0|            0|            3|       315422|
-| TS_clock_generator_0_clock_gen|     10.000ns|      9.569ns|          N/A|            0|            0|       315422|            0|
+|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.554ns|            0|            0|            3|       321672|
+| TS_clock_generator_0_clock_gen|     10.000ns|      9.554ns|          N/A|            0|            0|       321672|            0|
 | erator_0_SIG_DCM0_CLK0        |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -195,10 +201,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 17 secs 
-Total CPU time to PAR completion: 17 secs 
+Total REAL time to PAR completion: 30 secs 
+Total CPU time to PAR completion: 30 secs 
 
-Peak Memory Usage:  824 MB
+Peak Memory Usage:  864 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

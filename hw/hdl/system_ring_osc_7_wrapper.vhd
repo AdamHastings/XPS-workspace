@@ -7,8 +7,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 
-library ring_osc_v1_02_a;
-use ring_osc_v1_02_a.all;
+library ring_osc_v2_00_a;
+use ring_osc_v2_00_a.all;
 
 entity system_ring_osc_7_wrapper is
   port (
@@ -53,8 +53,7 @@ entity system_ring_osc_7_wrapper is
     Sl_MBusy : out std_logic_vector(0 to 1);
     Sl_MWrErr : out std_logic_vector(0 to 1);
     Sl_MRdErr : out std_logic_vector(0 to 1);
-    Sl_MIRQ : out std_logic_vector(0 to 1);
-    ring_en : out std_logic
+    Sl_MIRQ : out std_logic_vector(0 to 1)
   );
 end system_ring_osc_7_wrapper;
 
@@ -118,8 +117,7 @@ architecture STRUCTURE of system_ring_osc_7_wrapper is
       Sl_MBusy : out std_logic_vector(0 to (C_SPLB_NUM_MASTERS-1));
       Sl_MWrErr : out std_logic_vector(0 to (C_SPLB_NUM_MASTERS-1));
       Sl_MRdErr : out std_logic_vector(0 to (C_SPLB_NUM_MASTERS-1));
-      Sl_MIRQ : out std_logic_vector(0 to (C_SPLB_NUM_MASTERS-1));
-      ring_en : out std_logic
+      Sl_MIRQ : out std_logic_vector(0 to (C_SPLB_NUM_MASTERS-1))
     );
   end component;
 
@@ -183,8 +181,7 @@ begin
       Sl_MBusy => Sl_MBusy,
       Sl_MWrErr => Sl_MWrErr,
       Sl_MRdErr => Sl_MRdErr,
-      Sl_MIRQ => Sl_MIRQ,
-      ring_en => ring_en
+      Sl_MIRQ => Sl_MIRQ
     );
 
 end architecture STRUCTURE;

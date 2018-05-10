@@ -5,7 +5,7 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 Command Line: platgen -p xc4vlx60ff668-10 -lang vhdl -intstyle default -msg
 __xps/ise/xmsgprops.lst system.mhs 
 
-Parse /home/adam/RO-PUF/XPS_workspace/hw/system.mhs ...
+Parse /home/adam/RO-PUF/XPS-workspace/hw/system.mhs ...
 
 Read MPD definitions ...
 
@@ -84,15 +84,15 @@ INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:ilmb - tool is overriding PARAMETER
    ta/lmb_v10_v2_1_0.mpd line 82 
 INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
    overriding PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/dut_control_core_v1_00_a/data/dut_c
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/dut_control_core_v1_00_a/data/dut_c
    ontrol_core_v2_1_0.mpd line 27 
 INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
    overriding PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/dut_control_core_v1_00_a/data/dut_c
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/dut_control_core_v1_00_a/data/dut_c
    ontrol_core_v2_1_0.mpd line 28 
 INFO:EDK:4130 - IPNAME: dut_control_core, INSTANCE:dut_control_core_0 - tool is
    overriding PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/dut_control_core_v1_00_a/data/dut_c
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/dut_control_core_v1_00_a/data/dut_c
    ontrol_core_v2_1_0.mpd line 29 
 INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:dlmb - tool is overriding PARAMETER
    C_LMB_NUM_SLAVES value to 1 -
@@ -104,100 +104,100 @@ INFO:EDK:4130 - IPNAME: xps_uartlite, INSTANCE:RS232_Uart_1 - tool is overriding
    _a/data/xps_uartlite_v2_1_0.mpd line 84 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 28 
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 27 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 29 
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 28 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_0 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
-   PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
-   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
    _0.mpd line 29 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 27 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_1 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
    _0.mpd line 29 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 27 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_2 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
    _0.mpd line 29 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 27 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_3 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
    _0.mpd line 29 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 27 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_4 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
    _0.mpd line 29 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 27 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_5 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
    _0.mpd line 29 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
-   PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 30 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
    PARAMETER C_SPLB_DWIDTH value to 32 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 28 
-INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 27 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
    PARAMETER C_SPLB_NUM_MASTERS value to 2 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_6 - tool is overriding
+   PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
    _0.mpd line 29 
 INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
+   PARAMETER C_SPLB_DWIDTH value to 32 -
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 27 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
+   PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 28 
+INFO:EDK:4130 - IPNAME: ring_osc, INSTANCE:ring_osc_7 - tool is overriding
    PARAMETER C_SPLB_MID_WIDTH value to 1 -
-   /home/adam/RO-PUF/XPS_workspace/hw/pcores/ring_osc_v1_02_a/data/ring_osc_v2_1
-   _0.mpd line 30 
+   /home/adam/RO-PUF/XPS-workspace/hw/pcores/ring_osc_v2_00_a/data/ring_osc_v2_1
+   _0.mpd line 29 
 
 Checking platform address map ...
 
@@ -208,9 +208,9 @@ IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s)
 
 Checking port drivers...
 WARNING:EDK:4181 - PORT: Peripheral_Reset, CONNECTOR: sys_periph_reset -
-   floating connection - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 45 
+   floating connection - /home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 45 
 WARNING:EDK:4181 - PORT: Res, CONNECTOR: fpga_0_ORGate_1_Res_pin - floating
-   connection - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 168 
+   connection - /home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 168 
 
 Performing Clock DRCs...
 
@@ -307,49 +307,73 @@ Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
 IPNAME:xps_timer INSTANCE:xps_timer_0 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 16 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 16 - Copying cache
 implementation netlist
 IPNAME:xps_intc INSTANCE:xps_intc_0 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 25 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 25 - Copying cache
 implementation netlist
 IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 35 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 35 - Copying cache
 implementation netlist
 IPNAME:microblaze INSTANCE:microblaze_0 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 48 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 48 - Copying cache
 implementation netlist
-IPNAME:mdm INSTANCE:mdm_0 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line
+IPNAME:mdm INSTANCE:mdm_0 - /home/adam/RO-PUF/XPS-workspace/hw/system.mhs line
 62 - Copying cache implementation netlist
-IPNAME:plb_v46 INSTANCE:mb_plb - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs
+IPNAME:plb_v46 INSTANCE:mb_plb - /home/adam/RO-PUF/XPS-workspace/hw/system.mhs
 line 74 - Copying cache implementation netlist
 IPNAME:bram_block INSTANCE:lmb_bram -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 81 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 81 - Copying cache
 implementation netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 88 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 88 - Copying cache
 implementation netlist
-IPNAME:lmb_v10 INSTANCE:ilmb - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs
+IPNAME:lmb_v10 INSTANCE:ilmb - /home/adam/RO-PUF/XPS-workspace/hw/system.mhs
 line 97 - Copying cache implementation netlist
 IPNAME:dut_control_core INSTANCE:dut_control_core_0 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 104 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 104 - Copying cache
 implementation netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 117 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 117 - Copying cache
 implementation netlist
-IPNAME:lmb_v10 INSTANCE:dlmb - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs
+IPNAME:lmb_v10 INSTANCE:dlmb - /home/adam/RO-PUF/XPS-workspace/hw/system.mhs
 line 126 - Copying cache implementation netlist
 IPNAME:xps_uartlite INSTANCE:rs232_uart_1 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 148 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 148 - Copying cache
 implementation netlist
 IPNAME:util_reduced_logic INSTANCE:orgate_1 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 162 - Copying cache
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 162 - Copying cache
+implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_0 -
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 171 - Copying cache
+implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_1 -
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 179 - Copying cache
+implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_2 -
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 187 - Copying cache
+implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_3 -
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 195 - Copying cache
+implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_4 -
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 203 - Copying cache
+implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_5 -
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 211 - Copying cache
+implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_6 -
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 219 - Copying cache
+implementation netlist
+IPNAME:ring_osc INSTANCE:ring_osc_7 -
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 227 - Copying cache
 implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:lmb_bram -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 81 - elaborating IP
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 81 - elaborating IP
 IPNAME:clock_generator INSTANCE:clock_generator_0 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 133 - elaborating IP
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 133 - elaborating IP
 ClkGen elaborate status: PASSED
 ----------------------------------------
 ----------------------------------------
@@ -360,7 +384,7 @@ Inserting wrapper level ...
 Completion time: 0.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -373,34 +397,23 @@ Running XST synthesis ...
 INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:dut_control_core_0 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line
+INSTANCE:dut_control_core_0 - /home/adam/RO-PUF/XPS-workspace/hw/system.mhs line
 104 - Running XST synthesis
-INSTANCE:clock_generator_0 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line
+INSTANCE:clock_generator_0 - /home/adam/RO-PUF/XPS-workspace/hw/system.mhs line
 133 - Running XST synthesis
-INSTANCE:ring_osc_0 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 171 -
+INSTANCE:ring_osc_0 - /home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 171 -
 Running XST synthesis
-INSTANCE:ring_osc_1 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 179 -
-Running XST synthesis
-INSTANCE:ring_osc_2 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 187 -
-Running XST synthesis
-INSTANCE:ring_osc_3 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 195 -
-Running XST synthesis
-INSTANCE:ring_osc_4 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 203 -
-Running XST synthesis
-INSTANCE:ring_osc_5 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 211 -
-Running XST synthesis
-INSTANCE:ring_osc_6 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 219 -
-Running XST synthesis
-INSTANCE:ring_osc_7 - /home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 227 -
-Running XST synthesis
+ERROR:EDK:546 - Aborting XST flow execution!
+INFO:EDK:2246 - Refer to
+   /home/adam/RO-PUF/XPS-workspace/hw/synthesis/system_ring_osc_0_wrapper_xst.sr
+   p for details
 
 Running NGCBUILD ...
 IPNAME:system_clock_generator_0_wrapper INSTANCE:clock_generator_0 -
-/home/adam/RO-PUF/XPS_workspace/hw/system.mhs line 133 - Running NGCBUILD
+/home/adam/RO-PUF/XPS-workspace/hw/system.mhs line 133 - Running NGCBUILD
 INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
    If any constraint needs to be overridden, this should be done by modifying
    the data/system.ucf file.
 
 Rebuilding cache ...
-
-Total run time: 71.00 seconds
+ERROR:EDK:440 - platgen failed with errors!

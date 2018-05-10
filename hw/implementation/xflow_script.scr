@@ -6,7 +6,7 @@
 #
 # Command line for ngdbuild
 #
-ngdbuild -p xc4vlx60ff668-10 -nt timestamp -bm system.bmm "/home/adam/RO-PUF/XPS_workspace/hw/implementation/system.ngc" -uc system.ucf system.ngd 
+ngdbuild -p xc4vlx60ff668-10 -nt timestamp -bm system.bmm "/home/adam/RO-PUF/XPS-workspace/hw/implementation/system.ngc" -uc system.ucf system.ngd 
 
 #
 # Command line for map

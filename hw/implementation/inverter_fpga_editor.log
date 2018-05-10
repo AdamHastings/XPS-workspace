@@ -1,0 +1,175 @@
+#:C59    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   SPARC M2.1 P.49d
+#Current Working Directory:
+#:D   /home/adam/RO-PUF/XPS-workspace/hw/implementation
+#Host Name:
+#:H   phoenix
+#Date/Time:
+#:T   Thu May 10 16:47:29 2018
+#------------------------------
+	#Reading /home/adam/RO-PUF/XPS-workspace/hw/implementation/inverter.nmc...
+	#Loading device for application Rf_Device from file '4vlx60.nph' in environment /opt/Xilinx/14.4/ISE_DS/ISE/.
+	#   "inverter" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+	#This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the parts you will be using. This will allow the tools to take advantage of any available performance and functional enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping level" is available at support.xilinx.com.
+	#Design creation date: 2018.05.10.22.47.32
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+select -k comp '$COMP_0'
+	#2
+unselect -all
+	#3
+select -k comp '$COMP_0'
+	#4
+unselect -all
+	#5
+select -k comp '$COMP_0'
+	#6
+unselect -all
+	#7
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#8
+unselect -all
+	#9
+unselect -all
+	#10
+select pin 'SLICE_X48Y254.G1'
+	#site.pin = SLICE_X48Y254.G1, comp.pin = $COMP_0.G1, hard macro.pin = G1, delay = ~0.000ns on net "$NET_3"
+	#11
+unselect -all
+	#12
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#13
+unselect -all
+	#14
+unselect -all
+	#15
+select pin 'SLICE_X48Y254.G1'
+	#site.pin = SLICE_X48Y254.G1, comp.pin = $COMP_0.G1, hard macro.pin = G1, delay = ~0.000ns on net "$NET_3"
+	#16
+unselect -all
+	#17
+select pin 'SLICE_X48Y254.G2'
+	#site.pin = SLICE_X48Y254.G2, comp.pin = $COMP_0.G2, hard macro.pin = G2, delay = ~0.000ns on net "$NET_4"
+	#18
+unselect -all
+	#19
+unselect -all
+	#20
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#21
+unselect -all
+	#22
+unselect -all
+	#23
+select pin 'SLICE_X48Y254.G1'
+	#site.pin = SLICE_X48Y254.G1, comp.pin = $COMP_0.G1, hard macro.pin = G1, delay = ~0.000ns on net "$NET_3"
+	#24
+unselect -all
+	#25
+select pin 'SLICE_X48Y254.G2'
+	#site.pin = SLICE_X48Y254.G2, comp.pin = $COMP_0.G2, hard macro.pin = G2, delay = ~0.000ns on net "$NET_4"
+	#26
+unselect -all
+	#27
+select pin 'SLICE_X48Y254.G2'
+	#site.pin = SLICE_X48Y254.G2, comp.pin = $COMP_0.G2, hard macro.pin = G2, delay = ~0.000ns on net "$NET_4"
+	#28
+post attr
+	#29
+unpost pin "SLICE_X48Y254.G2"
+	#30
+unselect -all
+	#31
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#32
+post attr
+	#33
+unpost comp "$COMP_0"
+	#34
+unselect -all
+	#35
+unselect -all
+	#36
+select pin 'SLICE_X48Y254.Y'
+	#site.pin = SLICE_X48Y254.Y, comp.pin = $COMP_0.Y, hard macro.pin = Y, delay = unrouted on net "$NET_0"
+	#37
+unselect -all
+	#38
+select pin 'SLICE_X48Y254.G4'
+	#site.pin = SLICE_X48Y254.G4, comp.pin = $COMP_0.G4, hard macro.pin = G4, delay = ~0.000ns on net "$NET_5"
+	#39
+unselect -all
+	#40
+select pin 'SLICE_X48Y254.G3'
+	#site.pin = SLICE_X48Y254.G3, comp.pin = $COMP_0.G3, hard macro.pin = G3, delay = ~0.000ns on net "$NET_1"
+	#41
+unselect -all
+	#42
+select pin 'SLICE_X48Y254.G2'
+	#site.pin = SLICE_X48Y254.G2, comp.pin = $COMP_0.G2, hard macro.pin = G2, delay = ~0.000ns on net "$NET_4"
+	#43
+unselect -all
+	#44
+select pin 'SLICE_X48Y254.G1'
+	#site.pin = SLICE_X48Y254.G1, comp.pin = $COMP_0.G1, hard macro.pin = G1, delay = ~0.000ns on net "$NET_3"
+	#45
+unselect -all
+	#46
+select pin 'SLICE_X48Y254.G4'
+	#site.pin = SLICE_X48Y254.G4, comp.pin = $COMP_0.G4, hard macro.pin = G4, delay = ~0.000ns on net "$NET_5"
+	#47
+unselect -all
+	#48
+select pin 'SLICE_X48Y254.G3'
+	#site.pin = SLICE_X48Y254.G3, comp.pin = $COMP_0.G3, hard macro.pin = G3, delay = ~0.000ns on net "$NET_1"
+	#49
+unselect -all
+	#50
+select pin 'SLICE_X48Y254.Y'
+	#site.pin = SLICE_X48Y254.Y, comp.pin = $COMP_0.Y, hard macro.pin = Y, delay = unrouted on net "$NET_0"
+	#51
+unselect -all
+	#52
+select pin 'SLICE_X48Y254.G1'
+	#site.pin = SLICE_X48Y254.G1, comp.pin = $COMP_0.G1, hard macro.pin = G1, delay = ~0.000ns on net "$NET_3"
+	#53
+unselect -all
+	#54
+select pin 'SLICE_X48Y254.Y'
+	#site.pin = SLICE_X48Y254.Y, comp.pin = $COMP_0.Y, hard macro.pin = Y, delay = unrouted on net "$NET_0"
+	#55
+unselect -all
+	#56
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#57
+unselect -all
+	#58
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#59
+unselect -all
+	#60
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#61
+unselect -all
+	#62
+select comp '$COMP_0'
+	#comp "$COMP_0",  site "SLICE_X48Y254",  type = SLICEM  (RPM grid X113Y254)
+	#63
+post block
+	#64
+unselect -all
+	#65
+select wire 'INPUT(-8728,216848)'
+	#node = INPUT(-8728,216848)
+	#66
+post open

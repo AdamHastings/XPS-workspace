@@ -129,6 +129,33 @@ end entity user_logic;
 
 architecture IMP of user_logic is
 
+	-- Inverter component
+	component inverter is
+  port(
+		Y		: out std_logic;
+		G1	: in std_logic;
+		G2	: in std_logic;
+		G3	: in std_logic;
+		G4	: in std_logic
+  );
+	end component;
+
+	component nandgate is
+  port(
+		Y		: out std_logic;
+		G1	: in std_logic;
+		G2	: in std_logic;
+		G3	: in std_logic;
+		G4	: in std_logic
+  );
+	end component;
+
+	signal inverter_output	: std_logic := '0';
+	signal inverter_buf			: std_logic;
+	signal nand_output			: std_logic := '0';
+
+
+
   --USER signal declarations added here, as needed for user logic
   signal counter0               : std_logic_vector(31 downto 0);
   -- counter 2 increments when counter 1 fills up
@@ -145,14 +172,49 @@ architecture IMP of user_logic is
   signal slv_ip2bus_data                : std_logic_vector(0 to C_SLV_DWIDTH-1);
   signal slv_read_ack                   : std_logic;
   signal slv_write_ack                  : std_logic;
-
+	
   -- slv_reg2 is the control register
   alias enable                          : std_logic is slv_reg2(0);
   alias reset                           : std_logic is slv_reg2(1);
 
 begin
 
+	my_inverter : inverter
+	port map (
+		Y	 => inverter_output,
+		G  => nand_output,
+		G1 => '1',
+		G2 => '1',
+		G4 => '1'
+	);
+
+	my_nandgate : nandgate
+	port map (
+		Y  => nand_output,
+		G => '1',
+		G1 => '1',
+		G2 => '1',
+		G4 => enable
+	);
+
   --USER logic implementation added here
+	process (inverter_buf, reset)
+	begin
+		if (inverter_buf'event and inverter_buf = '1') then
+      if (reset = '1') then
+        counter0 <= (others=>'0');
+        counter1 <= (others=>'0');
+     	else
+				counter0 <= counter0 + 1;
+				if (unsigned(counter0)=100000000) then
+				  counter0 <= (others=>'0');
+				  counter1 <= counter1 + 1;
+				end if;
+			end if;
+		end if;
+	end process;
+
+	inverter_buf <= inverter_output;
 
   ------------------------------------------
   -- Example code to read/write user logic slave model s/w accessible registers
@@ -187,18 +249,6 @@ begin
         slv_reg1 <= (others => '0');
         slv_reg2 <= (others => '0');
       else
-
-        if reset then
-          counter0 <= (others=>'0');
-          counter1 <= (others=>'0');
-        else
-          counter0 <= counter0 + 1;
-          if (unsigned(counter0)=100000000) then
-            counter0 <= (others=>'0');
-            counter1 <= counter1 + 1;
-          end if;
-        end if;
-
         case slv_reg_write_sel is
           --when "100" =>
           --  for byte_index in 0 to (C_SLV_DWIDTH/8)-1 loop
@@ -220,6 +270,8 @@ begin
             end loop;
           when others => null;
         end case;
+				slv_reg0 <= counter0;
+				slv_reg1 <= counter1;
       end if;
     end if;
 

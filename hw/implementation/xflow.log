@@ -5,16 +5,16 @@ PMSPEC -- Overriding Xilinx file
 </opt/Xilinx/14.4/ISE_DS/EDK/virtex4/data/virtex4.acd> with local file
 </opt/Xilinx/14.4/ISE_DS/ISE/virtex4/data/virtex4.acd>
 
-Using Flow File: /home/adam/RO-PUF/XPS_workspace/hw/implementation/fpga.flw 
+Using Flow File: /home/adam/RO-PUF/XPS-workspace/hw/implementation/fpga.flw 
 Using Option File(s): 
- /home/adam/RO-PUF/XPS_workspace/hw/implementation/xflow.opt 
+ /home/adam/RO-PUF/XPS-workspace/hw/implementation/xflow.opt 
 
 Creating Script File ... 
 
 #----------------------------------------------#
 # Starting program ngdbuild
 # ngdbuild -p xc4vlx60ff668-10 -nt timestamp -bm system.bmm
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system.ngc" -uc system.ucf
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system.ngc" -uc system.ucf
 system.ngd 
 #----------------------------------------------#
 Release 14.4 - ngdbuild P.49d (lin64)
@@ -25,54 +25,54 @@ PMSPEC -- Overriding Xilinx file
 
 Command Line: /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -p
 xc4vlx60ff668-10 -nt timestamp -bm system.bmm
-/home/adam/RO-PUF/XPS_workspace/hw/implementation/system.ngc -uc system.ucf
+/home/adam/RO-PUF/XPS-workspace/hw/implementation/system.ngc -uc system.ucf
 system.ngd
 
-Reading NGO file "/home/adam/RO-PUF/XPS_workspace/hw/implementation/system.ngc"
+Reading NGO file "/home/adam/RO-PUF/XPS-workspace/hw/implementation/system.ngc"
 ...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_xps_timer_0_wrapper.ng
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_xps_timer_0_wrapper.ng
 c"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_xps_intc_0_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_xps_intc_0_wrapper.ngc
 "...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_proc_sys_reset_0_wrapp
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_proc_sys_reset_0_wrapp
 er.ngc"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_microblaze_0_wrapper.n
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_microblaze_0_wrapper.n
 gc"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_mdm_0_wrapper.ngc"...
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_mdm_0_wrapper.ngc"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_mb_plb_wrapper.ngc"...
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_mb_plb_wrapper.ngc"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_lmb_bram_wrapper.ngc".
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_lmb_bram_wrapper.ngc".
 ..
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ilmb_cntlr_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ilmb_cntlr_wrapper.ngc
 "...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ilmb_wrapper.ngc"...
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ilmb_wrapper.ngc"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_dut_control_core_0_wra
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_dut_control_core_0_wra
 pper.ngc"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_dlmb_cntlr_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_dlmb_cntlr_wrapper.ngc
 "...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_dlmb_wrapper.ngc"...
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_dlmb_wrapper.ngc"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_clock_generator_0_wrap
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_clock_generator_0_wrap
 per.ngc"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_rs232_uart_1_wrapper.n
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_rs232_uart_1_wrapper.n
 gc"...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_orgate_1_wrapper.ngc".
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_orgate_1_wrapper.ngc".
 ..
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_0_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ring_osc_0_wrapper.ngc
 "...
 Loading device for application Rf_Device from file '4vlx60.nph' in environment
 /opt/Xilinx/14.4/ISE_DS/ISE/:/opt/Xilinx/14.4/ISE_DS/EDK.
@@ -84,26 +84,34 @@ parts you will be using. This will allow the tools to take advantage of any
 available performance and functional enhancements for this device. The latest
 stepping level for this device is '2'. Additional information on "stepping
 level" is available at support.xilinx.com.
+======   "nandgate" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
 ======Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_1_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ring_osc_1_wrapper.ngc
 "...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_2_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ring_osc_2_wrapper.ngc
 "...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_3_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ring_osc_3_wrapper.ngc
 "...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_4_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ring_osc_4_wrapper.ngc
 "...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_5_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ring_osc_5_wrapper.ngc
 "...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_6_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ring_osc_6_wrapper.ngc
 "...
 Loading design module
-"/home/adam/RO-PUF/XPS_workspace/hw/implementation/system_ring_osc_7_wrapper.ngc
+"/home/adam/RO-PUF/XPS-workspace/hw/implementation/system_ring_osc_7_wrapper.ngc
 "...
 Gathering constraint information from source properties...
 Done.
@@ -266,8 +274,8 @@ NGDBUILD Design Results Summary:
   Number of warnings:  42
 
 Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion:  14 sec
-Total CPU time to NGDBUILD completion:   14 sec
+Total REAL time to NGDBUILD completion:  33 sec
+Total CPU time to NGDBUILD completion:   32 sec
 
 Writing NGDBUILD log file "system.bld"...
 
@@ -298,27 +306,35 @@ parts you will be using. This will allow the tools to take advantage of any
 available performance and functional enhancements for this device. The latest
 stepping level for this device is '2'. Additional information on "stepping
 level" is available at support.xilinx.com.
+   "nandgate" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 10 secs 
-Total CPU  time at the beginning of Placer: 9 secs 
+Total REAL time at the beginning of Placer: 21 secs 
+Total CPU  time at the beginning of Placer: 19 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:a7e8baf) REAL time: 11 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:b36bd75b) REAL time: 22 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:a7e8baf) REAL time: 11 secs 
+Phase 2.7  Design Feasibility Check (Checksum:b36bd75b) REAL time: 22 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:80574cf) REAL time: 11 secs 
+Phase 3.31  Local Placement Optimization (Checksum:7f41cf7b) REAL time: 22 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-Phase 4.2  Initial Clock and IO Placement (Checksum:19d5a8b3) REAL time: 11 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:2ce8fb84) REAL time: 23 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:19d5a8b3) REAL time: 11 secs 
+Phase 5.36  Local Placement Optimization (Checksum:2ce8fb84) REAL time: 23 secs 
 
-..............................................................................................................................................................................
+......................................................................................................................................................................................
 Phase 6.30  Global Clock Region Assignment
 
 
@@ -332,15 +348,15 @@ Phase 6.30  Global Clock Region Assignment
 
 # Location of Clock Components
 INST "mdm_0/mdm_0/BUFG_DRCK" LOC = "BUFGCTRL_X0Y27" ;
-INST "ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf_BUFG" LOC = "BUFGCTRL_X0Y4" ;
-INST "ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf_BUFG" LOC = "BUFGCTRL_X0Y28" ;
-INST "ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf_BUFG" LOC = "BUFGCTRL_X0Y3" ;
-INST "ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf_BUFG" LOC = "BUFGCTRL_X0Y29" ;
-INST "ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf_BUFG" LOC = "BUFGCTRL_X0Y2" ;
-INST "ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf_BUFG" LOC = "BUFGCTRL_X0Y30" ;
-INST "ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_buf_BUFG" LOC = "BUFGCTRL_X0Y1" ;
-INST "ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf_BUFG" LOC = "BUFGCTRL_X0Y0" ;
 INST "clock_generator_0/clock_generator_0/DCM0_CLK0_BUFG_INST" LOC = "BUFGCTRL_X0Y31" ;
+INST "ring_osc_7/ring_osc_7/USER_LOGIC_I/inverter_output_BUFG" LOC = "BUFGCTRL_X0Y4" ;
+INST "ring_osc_6/ring_osc_6/USER_LOGIC_I/inverter_output_BUFG" LOC = "BUFGCTRL_X0Y28" ;
+INST "ring_osc_5/ring_osc_5/USER_LOGIC_I/inverter_output_BUFG" LOC = "BUFGCTRL_X0Y3" ;
+INST "ring_osc_4/ring_osc_4/USER_LOGIC_I/inverter_output_BUFG" LOC = "BUFGCTRL_X0Y29" ;
+INST "ring_osc_3/ring_osc_3/USER_LOGIC_I/inverter_output_BUFG" LOC = "BUFGCTRL_X0Y2" ;
+INST "ring_osc_2/ring_osc_2/USER_LOGIC_I/inverter_output_BUFG" LOC = "BUFGCTRL_X0Y30" ;
+INST "ring_osc_1/ring_osc_1/USER_LOGIC_I/inverter_output_BUFG" LOC = "BUFGCTRL_X0Y1" ;
+INST "ring_osc_0/ring_osc_0/USER_LOGIC_I/inverter_output_BUFG" LOC = "BUFGCTRL_X0Y0" ;
 INST "XIL_ML_UNUSED_DCM_1" LOC = "DCM_ADV_X0Y4" ;
 INST "XIL_ML_UNUSED_DCM_2" LOC = "DCM_ADV_X0Y3" ;
 INST "XIL_ML_UNUSED_DCM_3" LOC = "DCM_ADV_X0Y5" ;
@@ -354,52 +370,52 @@ INST "fpga_0_clk_1_sys_clk_pin" LOC = "C13" ;
 # mdm_0/Dbg_Clk_1 driven by BUFGCTRL_X0Y27
 NET "mdm_0/Dbg_Clk_1" TNM_NET = "TN_mdm_0/Dbg_Clk_1" ;
 TIMEGRP "TN_mdm_0/Dbg_Clk_1" AREA_GROUP = "CLKAG_mdm_0/Dbg_Clk_1" ;
-AREA_GROUP "CLKAG_mdm_0/Dbg_Clk_1" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X0Y1, CLOCKREGION_X0Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
-
-# ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf driven by BUFGCTRL_X0Y4
-NET "ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf" TNM_NET = "TN_ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf" ;
-TIMEGRP "TN_ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf" AREA_GROUP = "CLKAG_ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf" ;
-AREA_GROUP "CLKAG_ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
-
-# ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf driven by BUFGCTRL_X0Y28
-NET "ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf" TNM_NET = "TN_ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf" ;
-TIMEGRP "TN_ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf" AREA_GROUP = "CLKAG_ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf" ;
-AREA_GROUP "CLKAG_ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
-
-# ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf driven by BUFGCTRL_X0Y3
-NET "ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf" TNM_NET = "TN_ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf" ;
-TIMEGRP "TN_ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf" AREA_GROUP = "CLKAG_ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf" ;
-AREA_GROUP "CLKAG_ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf" RANGE =   CLOCKREGION_X1Y0, CLOCKREGION_X1Y1, CLOCKREGION_X1Y2 ;
-
-# ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf driven by BUFGCTRL_X0Y29
-NET "ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf" TNM_NET = "TN_ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf" ;
-TIMEGRP "TN_ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf" AREA_GROUP = "CLKAG_ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf" ;
-AREA_GROUP "CLKAG_ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf" RANGE =   CLOCKREGION_X1Y0, CLOCKREGION_X1Y1, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
-
-# ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf driven by BUFGCTRL_X0Y2
-NET "ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf" TNM_NET = "TN_ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf" ;
-TIMEGRP "TN_ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf" AREA_GROUP = "CLKAG_ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf" ;
-AREA_GROUP "CLKAG_ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3 ;
-
-# ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf driven by BUFGCTRL_X0Y30
-NET "ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf" TNM_NET = "TN_ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf" ;
-TIMEGRP "TN_ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf" AREA_GROUP = "CLKAG_ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf" ;
-AREA_GROUP "CLKAG_ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X0Y1, CLOCKREGION_X0Y2, CLOCKREGION_X0Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
-
-# ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_buf driven by BUFGCTRL_X0Y1
-NET "ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_buf" TNM_NET = "TN_ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_buf" ;
-TIMEGRP "TN_ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_buf" AREA_GROUP = "CLKAG_ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_buf" ;
-AREA_GROUP "CLKAG_ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
-
-# ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf driven by BUFGCTRL_X0Y0
-NET "ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf" TNM_NET = "TN_ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf" ;
-TIMEGRP "TN_ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf" AREA_GROUP = "CLKAG_ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf" ;
-AREA_GROUP "CLKAG_ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+AREA_GROUP "CLKAG_mdm_0/Dbg_Clk_1" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
 
 # clk_100_0000MHz driven by BUFGCTRL_X0Y31
 NET "clk_100_0000MHz" TNM_NET = "TN_clk_100_0000MHz" ;
 TIMEGRP "TN_clk_100_0000MHz" AREA_GROUP = "CLKAG_clk_100_0000MHz" ;
 AREA_GROUP "CLKAG_clk_100_0000MHz" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# ring_osc_7/ring_osc_7/USER_LOGIC_I/inverter_output driven by BUFGCTRL_X0Y4
+NET "ring_osc_7/ring_osc_7/USER_LOGIC_I/inverter_output" TNM_NET = "TN_ring_osc_7/ring_osc_7/USER_LOGIC_I/inverter_output" ;
+TIMEGRP "TN_ring_osc_7/ring_osc_7/USER_LOGIC_I/inverter_output" AREA_GROUP = "CLKAG_ring_osc_7/ring_osc_7/USER_LOGIC_I/inverter_output" ;
+AREA_GROUP "CLKAG_ring_osc_7/ring_osc_7/USER_LOGIC_I/inverter_output" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1 ;
+
+# ring_osc_6/ring_osc_6/USER_LOGIC_I/inverter_output driven by BUFGCTRL_X0Y28
+NET "ring_osc_6/ring_osc_6/USER_LOGIC_I/inverter_output" TNM_NET = "TN_ring_osc_6/ring_osc_6/USER_LOGIC_I/inverter_output" ;
+TIMEGRP "TN_ring_osc_6/ring_osc_6/USER_LOGIC_I/inverter_output" AREA_GROUP = "CLKAG_ring_osc_6/ring_osc_6/USER_LOGIC_I/inverter_output" ;
+AREA_GROUP "CLKAG_ring_osc_6/ring_osc_6/USER_LOGIC_I/inverter_output" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# ring_osc_5/ring_osc_5/USER_LOGIC_I/inverter_output driven by BUFGCTRL_X0Y3
+NET "ring_osc_5/ring_osc_5/USER_LOGIC_I/inverter_output" TNM_NET = "TN_ring_osc_5/ring_osc_5/USER_LOGIC_I/inverter_output" ;
+TIMEGRP "TN_ring_osc_5/ring_osc_5/USER_LOGIC_I/inverter_output" AREA_GROUP = "CLKAG_ring_osc_5/ring_osc_5/USER_LOGIC_I/inverter_output" ;
+AREA_GROUP "CLKAG_ring_osc_5/ring_osc_5/USER_LOGIC_I/inverter_output" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# ring_osc_4/ring_osc_4/USER_LOGIC_I/inverter_output driven by BUFGCTRL_X0Y29
+NET "ring_osc_4/ring_osc_4/USER_LOGIC_I/inverter_output" TNM_NET = "TN_ring_osc_4/ring_osc_4/USER_LOGIC_I/inverter_output" ;
+TIMEGRP "TN_ring_osc_4/ring_osc_4/USER_LOGIC_I/inverter_output" AREA_GROUP = "CLKAG_ring_osc_4/ring_osc_4/USER_LOGIC_I/inverter_output" ;
+AREA_GROUP "CLKAG_ring_osc_4/ring_osc_4/USER_LOGIC_I/inverter_output" RANGE =   CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# ring_osc_3/ring_osc_3/USER_LOGIC_I/inverter_output driven by BUFGCTRL_X0Y2
+NET "ring_osc_3/ring_osc_3/USER_LOGIC_I/inverter_output" TNM_NET = "TN_ring_osc_3/ring_osc_3/USER_LOGIC_I/inverter_output" ;
+TIMEGRP "TN_ring_osc_3/ring_osc_3/USER_LOGIC_I/inverter_output" AREA_GROUP = "CLKAG_ring_osc_3/ring_osc_3/USER_LOGIC_I/inverter_output" ;
+AREA_GROUP "CLKAG_ring_osc_3/ring_osc_3/USER_LOGIC_I/inverter_output" RANGE =   CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# ring_osc_2/ring_osc_2/USER_LOGIC_I/inverter_output driven by BUFGCTRL_X0Y30
+NET "ring_osc_2/ring_osc_2/USER_LOGIC_I/inverter_output" TNM_NET = "TN_ring_osc_2/ring_osc_2/USER_LOGIC_I/inverter_output" ;
+TIMEGRP "TN_ring_osc_2/ring_osc_2/USER_LOGIC_I/inverter_output" AREA_GROUP = "CLKAG_ring_osc_2/ring_osc_2/USER_LOGIC_I/inverter_output" ;
+AREA_GROUP "CLKAG_ring_osc_2/ring_osc_2/USER_LOGIC_I/inverter_output" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# ring_osc_1/ring_osc_1/USER_LOGIC_I/inverter_output driven by BUFGCTRL_X0Y1
+NET "ring_osc_1/ring_osc_1/USER_LOGIC_I/inverter_output" TNM_NET = "TN_ring_osc_1/ring_osc_1/USER_LOGIC_I/inverter_output" ;
+TIMEGRP "TN_ring_osc_1/ring_osc_1/USER_LOGIC_I/inverter_output" AREA_GROUP = "CLKAG_ring_osc_1/ring_osc_1/USER_LOGIC_I/inverter_output" ;
+AREA_GROUP "CLKAG_ring_osc_1/ring_osc_1/USER_LOGIC_I/inverter_output" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# ring_osc_0/ring_osc_0/USER_LOGIC_I/inverter_output driven by BUFGCTRL_X0Y0
+NET "ring_osc_0/ring_osc_0/USER_LOGIC_I/inverter_output" TNM_NET = "TN_ring_osc_0/ring_osc_0/USER_LOGIC_I/inverter_output" ;
+TIMEGRP "TN_ring_osc_0/ring_osc_0/USER_LOGIC_I/inverter_output" AREA_GROUP = "CLKAG_ring_osc_0/ring_osc_0/USER_LOGIC_I/inverter_output" ;
+AREA_GROUP "CLKAG_ring_osc_0/ring_osc_0/USER_LOGIC_I/inverter_output" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2 ;
 
 # NOTE: 
 # This report is provided to help reproduce successful clock-region 
@@ -428,9 +444,9 @@ Clock-Region: <CLOCKREGION_X0Y0>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    179 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    276 |clk_100_0000MHz
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    179 | Total 
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    276 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -450,7 +466,7 @@ Clock-Region: <CLOCKREGION_X1Y0>
 
 
 Clock-Region: <CLOCKREGION_X0Y1> 
- key resource utilizations (used/available): global-clocks - 1/8 ;
+ key resource utilizations (used/available): global-clocks - 2/8 ;
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
    BRAM |    DCM |   PMCD |     GT | ILOGIC | OLOGIC |   MULT |   EMAC |    PPC |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
    FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -459,9 +475,10 @@ Clock-Region: <CLOCKREGION_X0Y1>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |    243 |clk_100_0000MHz
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     56 |    474 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |mdm_0/Dbg_Clk_1
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |    243 | Total 
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     56 |    478 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -475,17 +492,17 @@ Clock-Region: <CLOCKREGION_X1Y1>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     35 |clk_100_0000MHz
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    178 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     20 |ring_osc_0/ring_osc_0/USER_LOGIC_I/inverter_output
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     64 |ring_osc_5/ring_osc_5/USER_LOGIC_I/inverter_output
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     62 |ring_osc_7/ring_osc_7/USER_LOGIC_I/inverter_output
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     44 | Total 
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    324 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
 Clock-Region: <CLOCKREGION_X0Y2> 
- key resource utilizations (used/available): global-clocks - 6/8 ;
+ key resource utilizations (used/available): global-clocks - 2/8 ;
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
    BRAM |    DCM |   PMCD |     GT | ILOGIC | OLOGIC |   MULT |   EMAC |    PPC |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
    FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -494,19 +511,15 @@ Clock-Region: <CLOCKREGION_X0Y2>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      5 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |    230 |   1387 |clk_100_0000MHz
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     23 |mdm_0/Dbg_Clk_1
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     32 |ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      7 |ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     43 |ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     58 |ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf
+      7 |      0 |      0 |      0 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |    287 |   1182 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |     29 |mdm_0/Dbg_Clk_1
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      5 |      0 |      0 |      0 |      0 |      0 |      2 |      0 |      0 |      0 |      0 |    230 |   1550 | Total 
+      7 |      0 |      0 |      0 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |    295 |   1211 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
 Clock-Region: <CLOCKREGION_X1Y2> 
- key resource utilizations (used/available): global-clocks - 8/8 ;
+ key resource utilizations (used/available): global-clocks - 4/8 ;
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
    BRAM |    DCM |   PMCD |     GT | ILOGIC | OLOGIC |   MULT |   EMAC |    PPC |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
    FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -515,21 +528,17 @@ Clock-Region: <CLOCKREGION_X1Y2>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    156 |clk_100_0000MHz
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     46 |ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     92 |ring_osc_1/ring_osc_1/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     95 |ring_osc_2/ring_osc_2/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     92 |ring_osc_3/ring_osc_3/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     32 |ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    586 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     26 |ring_osc_0/ring_osc_0/USER_LOGIC_I/inverter_output
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     47 |ring_osc_1/ring_osc_1/USER_LOGIC_I/inverter_output
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     64 |ring_osc_3/ring_osc_3/USER_LOGIC_I/inverter_output
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    518 | Total 
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    723 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
 Clock-Region: <CLOCKREGION_X0Y3> 
- key resource utilizations (used/available): global-clocks - 6/8 ;
+ key resource utilizations (used/available): global-clocks - 2/8 ;
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
    BRAM |    DCM |   PMCD |     GT | ILOGIC | OLOGIC |   MULT |   EMAC |    PPC |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
    FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -538,19 +547,15 @@ Clock-Region: <CLOCKREGION_X0Y3>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      7 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    245 |    826 |clk_100_0000MHz
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     12 |    114 |mdm_0/Dbg_Clk_1
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     57 |ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      7 |ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      6 |ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf
+      6 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    122 |    519 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    120 |mdm_0/Dbg_Clk_1
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      7 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    257 |   1016 | Total 
+      6 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    126 |    639 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
 Clock-Region: <CLOCKREGION_X1Y3> 
- key resource utilizations (used/available): global-clocks - 5/8 ;
+ key resource utilizations (used/available): global-clocks - 4/8 ;
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
    BRAM |    DCM |   PMCD |     GT | ILOGIC | OLOGIC |   MULT |   EMAC |    PPC |   PCIE | IDLYCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
    FIFO |        |        |        |        |        |        |        |        |        |        |        |        |
@@ -559,13 +564,12 @@ Clock-Region: <CLOCKREGION_X1Y3>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      7 |     42 |clk_100_0000MHz
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     22 |ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     20 |ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     31 |ring_osc_6/ring_osc_6/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     28 |ring_osc_7/ring_osc_7/USER_LOGIC_I/ring_osc_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     19 |    296 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      7 |ring_osc_1/ring_osc_1/USER_LOGIC_I/inverter_output
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     48 |ring_osc_2/ring_osc_2/USER_LOGIC_I/inverter_output
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |ring_osc_4/ring_osc_4/USER_LOGIC_I/inverter_output
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      7 |    143 | Total 
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     19 |    355 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -579,11 +583,11 @@ Clock-Region: <CLOCKREGION_X0Y4>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     19 |clk_100_0000MHz
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |     21 |mdm_0/Dbg_Clk_1
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     32 |ring_osc_5/ring_osc_5/USER_LOGIC_I/ring_osc_buf
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     62 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |      2 |mdm_0/Dbg_Clk_1
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     64 |ring_osc_6/ring_osc_6/USER_LOGIC_I/inverter_output
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |     72 | Total 
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |    128 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -597,12 +601,12 @@ Clock-Region: <CLOCKREGION_X1Y4>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      1 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |clk_100_0000MHz
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      3 |     25 |mdm_0/Dbg_Clk_1
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     12 |ring_osc_0/ring_osc_0/USER_LOGIC_I/ring_osc_buf
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     12 |ring_osc_4/ring_osc_4/USER_LOGIC_I/ring_osc_buf
+      0 |      0 |      0 |      0 |      1 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |     24 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      3 |     24 |mdm_0/Dbg_Clk_1
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     10 |ring_osc_2/ring_osc_2/USER_LOGIC_I/inverter_output
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     32 |ring_osc_4/ring_osc_4/USER_LOGIC_I/inverter_output
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      1 |      1 |      0 |      0 |      0 |      0 |      0 |      3 |     51 | Total 
+      0 |      0 |      0 |      0 |      1 |      1 |      0 |      0 |      0 |      0 |      0 |      3 |     90 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -616,9 +620,9 @@ Clock-Region: <CLOCKREGION_X0Y5>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
         |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |     20 |clk_100_0000MHz
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |     19 |clk_100_0000MHz
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
-      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |     20 | Total 
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |     19 | Total 
 --------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
 
 
@@ -708,51 +712,52 @@ maybe moved to adjacent clock-regions as long as the "number of clocks per regio
 ######################################################################################
 
 
-Phase 6.30  Global Clock Region Assignment (Checksum:19d5a8b3) REAL time: 15 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:2ce8fb84) REAL time: 31 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:19d5a8b3) REAL time: 15 secs 
+Phase 7.3  Local Placement Optimization (Checksum:2ce8fb84) REAL time: 31 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:19d5a8b3) REAL time: 15 secs 
+Phase 8.5  Local Placement Optimization (Checksum:2ce8fb84) REAL time: 31 secs 
 
 Phase 9.8  Global Placement
-...............................................................................................
-............
-...........................................................................................
+......................................................................................................................................................................................
+..................
+..........................................................................................................................................................................................
 ................
-Phase 9.8  Global Placement (Checksum:c1018f05) REAL time: 21 secs 
+................
+Phase 9.8  Global Placement (Checksum:78f96f8a) REAL time: 50 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:c1018f05) REAL time: 21 secs 
+Phase 10.5  Local Placement Optimization (Checksum:78f96f8a) REAL time: 51 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:95eb0a9) REAL time: 34 secs 
+Phase 11.18  Placement Optimization (Checksum:5e22e3c2) REAL time: 1 mins 20 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:95eb0a9) REAL time: 34 secs 
+Phase 12.5  Local Placement Optimization (Checksum:5e22e3c2) REAL time: 1 mins 20 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:95eb0a9) REAL time: 35 secs 
+Phase 13.34  Placement Validation (Checksum:5e22e3c2) REAL time: 1 mins 21 secs 
 
-Total REAL time to Placer completion: 35 secs 
-Total CPU  time to Placer completion: 35 secs 
+Total REAL time to Placer completion: 1 mins 21 secs 
+Total CPU  time to Placer completion: 1 mins 19 secs 
 Running post-placement packing...
 
 Design Summary:
 Number of errors:      0
 Number of warnings:    5
 Logic Utilization:
-  Number of Slice Flip Flops:         3,930 out of  53,248    7%
-  Number of 4 input LUTs:             4,977 out of  53,248    9%
+  Number of Slice Flip Flops:         4,362 out of  53,248    8%
+  Number of 4 input LUTs:             5,397 out of  53,248   10%
 Logic Distribution:
-  Number of occupied Slices:          4,389 out of  26,624   16%
-    Number of Slices containing only related logic:   4,389 out of   4,389 100%
-    Number of Slices containing unrelated logic:          0 out of   4,389   0%
+  Number of occupied Slices:          4,560 out of  26,624   17%
+    Number of Slices containing only related logic:   4,560 out of   4,560 100%
+    Number of Slices containing unrelated logic:          0 out of   4,560   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:       5,342 out of  53,248   10%
-    Number used as logic:             4,462
-    Number used as a route-thru:        365
+  Total Number of 4 input LUTs:       6,006 out of  53,248   11%
+    Number used as logic:             4,882
+    Number used as a route-thru:        609
     Number used for Dual Port RAMs:     384
       (Two LUTs used per Dual Port RAM)
     Number used as Shift registers:     131
@@ -769,12 +774,12 @@ Logic Distribution:
   Number of DCM_ADVs:                     1 out of       8   12%
   Number of BSCAN_VIRTEX4s:               1 out of       4   25%
 
-  Number of hard macros:           8
-Average Fanout of Non-Clock Nets:                3.46
+  Number of hard macros:          16
+Average Fanout of Non-Clock Nets:                3.38
 
-Peak Memory Usage:  1013 MB
-Total REAL time to MAP completion:  37 secs 
-Total CPU time to MAP completion:   36 secs 
+Peak Memory Usage:  1037 MB
+Total REAL time to MAP completion:  1 mins 25 secs 
+Total CPU time to MAP completion:   1 mins 23 secs 
 
 Mapping completed.
 See MAP report file "system_map.mrp" for details.
@@ -807,6 +812,12 @@ targeted at devices of this stepping level, it is recommended that you explicitl
 parts you will be using. This will allow the tools to take advantage of any available performance and functional
 enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping
 level" is available at support.xilinx.com.
+   "nandgate" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is
+targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any available performance and functional
+enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
 Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
@@ -828,45 +839,45 @@ Device Utilization Summary:
 
    Number of OLOGICs                         1 out of 640     1%
    Number of RAMB16s                        16 out of 160    10%
-   Number of Slices                       4389 out of 26624  16%
-      Number of SLICEMs                    274 out of 13312   2%
+   Number of Slices                       4560 out of 26624  17%
+      Number of SLICEMs                    282 out of 13312   2%
 
 
 
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 6 secs 
-Finished initial Timing Analysis.  REAL time: 6 secs 
+Starting initial Timing Analysis.  REAL time: 10 secs 
+Finished initial Timing Analysis.  REAL time: 11 secs 
 
 WARNING:Par:288 - The signal dlmb_LMB_ABus<31> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal dlmb_LMB_ABus<30> has no load.  PAR will not attempt to route this signal.
 Starting Router
 
 
-Phase  1  : 28728 unrouted;      REAL time: 7 secs 
+Phase  1  : 31680 unrouted;      REAL time: 12 secs 
 
-Phase  2  : 24573 unrouted;      REAL time: 7 secs 
+Phase  2  : 27391 unrouted;      REAL time: 12 secs 
 
-Phase  3  : 8235 unrouted;      REAL time: 9 secs 
+Phase  3  : 9972 unrouted;      REAL time: 15 secs 
 
-Phase  4  : 8237 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 11 secs 
+Phase  4  : 9977 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 19 secs 
 
 Updating file: system.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 15 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 26 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
-Total REAL time to Router completion: 16 secs 
-Total CPU time to Router completion: 15 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 27 secs 
+Total REAL time to Router completion: 27 secs 
+Total CPU time to Router completion: 27 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -884,49 +895,49 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|     clk_100_0000MHz |BUFGCTRL_X0Y31| No   | 2862 |  0.622     |  3.168      |
+|     clk_100_0000MHz |BUFGCTRL_X0Y31| No   | 3154 |  0.584     |  3.168      |
 +---------------------+--------------+------+------+------------+-------------+
-|ring_osc_3/ring_osc_ |              |      |      |            |             |
-|3/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y1| No   |   60 |  0.143     |  2.871      |
-+---------------------+--------------+------+------+------------+-------------+
-|     mdm_0/Dbg_Clk_1 |BUFGCTRL_X0Y27| No   |  162 |  0.435     |  2.964      |
-+---------------------+--------------+------+------+------------+-------------+
-|ring_osc_5/ring_osc_ |              |      |      |            |             |
-|5/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf |BUFGCTRL_X0Y30| No   |   60 |  0.118     |  2.883      |
+|     mdm_0/Dbg_Clk_1 |BUFGCTRL_X0Y27| No   |  165 |  0.451     |  3.009      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_7/ring_osc_ |              |      |      |            |             |
-|7/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y2| No   |   62 |  0.186     |  2.801      |
+|7/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y4| No   |   38 |  0.078     |  2.817      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_6/ring_osc_ |              |      |      |            |             |
-|6/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y4| No   |   56 |  0.195     |  2.724      |
+|6/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output |BUFGCTRL_X0Y28| No   |   36 |  0.095     |  2.827      |
++---------------------+--------------+------+------+------------+-------------+
+|ring_osc_5/ring_osc_ |              |      |      |            |             |
+|5/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y3| No   |   35 |  0.103     |  2.701      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_4/ring_osc_ |              |      |      |            |             |
-|4/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf |BUFGCTRL_X0Y28| No   |   60 |  0.183     |  2.833      |
+|4/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output |BUFGCTRL_X0Y29| No   |   36 |  0.106     |  2.733      |
++---------------------+--------------+------+------+------------+-------------+
+|ring_osc_3/ring_osc_ |              |      |      |            |             |
+|3/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y2| No   |   40 |  0.082     |  2.857      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_2/ring_osc_ |              |      |      |            |             |
-|2/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y3| No   |   64 |  0.105     |  2.878      |
+|2/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output |BUFGCTRL_X0Y30| No   |   36 |  0.093     |  2.706      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_1/ring_osc_ |              |      |      |            |             |
-|1/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf | BUFGCTRL_X0Y0| No   |   61 |  0.129     |  2.826      |
+|1/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y1| No   |   35 |  0.036     |  2.781      |
 +---------------------+--------------+------+------+------------+-------------+
 |ring_osc_0/ring_osc_ |              |      |      |            |             |
-|0/USER_LOGIC_I/ring_ |              |      |      |            |             |
-|             osc_buf |BUFGCTRL_X0Y29| No   |   55 |  0.156     |  2.784      |
-+---------------------+--------------+------+------+------------+-------------+
-|  mdm_0/Dbg_Update_1 |         Local|      |   36 |  1.731     |  2.327      |
-+---------------------+--------------+------+------+------------+-------------+
-|fpga_0_clk_1_sys_clk |              |      |      |            |             |
-|          _pin_IBUFG |         Local|      |    5 |  0.714     |  2.276      |
+|0/USER_LOGIC_I/inver |              |      |      |            |             |
+|          ter_output | BUFGCTRL_X0Y0| No   |   37 |  0.044     |  2.754      |
 +---------------------+--------------+------+------+------------+-------------+
 |xps_timer_0_Interrup |              |      |      |            |             |
-|                   t |         Local|      |    1 |  0.000     |  1.377      |
+|                   t |         Local|      |    1 |  0.000     |  0.858      |
++---------------------+--------------+------+------+------------+-------------+
+|  mdm_0/Dbg_Update_1 |         Local|      |   39 |  2.797     |  3.752      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_clk_1_sys_clk |              |      |      |            |             |
+|          _pin_IBUFG |         Local|      |    5 |  0.347     |  2.328      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -946,13 +957,13 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.431ns|     9.569ns|       0|           0
-  G_DCM0_CLK0 = PERIOD TIMEGRP         "clo | HOLD        |     0.404ns|            |       0|           0
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.446ns|     9.554ns|       0|           0
+  G_DCM0_CLK0 = PERIOD TIMEGRP         "clo | HOLD        |     0.435ns|            |       0|           0
   ck_generator_0_clock_generator_0_SIG_DCM0 |             |            |            |        |            
   _CLK0" TS_sys_clk_pin         HIGH 50%    |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |     7.642ns|     2.358ns|       0|           0
-  pin" 100 MHz HIGH 50%                     | HOLD        |     0.649ns|            |       0|           0
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | SETUP       |     8.212ns|     1.788ns|       0|           0
+  pin" 100 MHz HIGH 50%                     | HOLD        |     0.516ns|            |       0|           0
                                             | MINPERIOD   |     3.334ns|     6.666ns|       0|           0
 ----------------------------------------------------------------------------------------------------------
 
@@ -967,8 +978,8 @@ Derived Constraints for TS_sys_clk_pin
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.569ns|            0|            0|            3|       315422|
-| TS_clock_generator_0_clock_gen|     10.000ns|      9.569ns|          N/A|            0|            0|       315422|            0|
+|TS_sys_clk_pin                 |     10.000ns|      6.666ns|      9.554ns|            0|            0|            3|       321672|
+| TS_clock_generator_0_clock_gen|     10.000ns|      9.554ns|          N/A|            0|            0|       321672|            0|
 | erator_0_SIG_DCM0_CLK0        |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -981,10 +992,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 17 secs 
-Total CPU time to PAR completion: 17 secs 
+Total REAL time to PAR completion: 30 secs 
+Total CPU time to PAR completion: 30 secs 
 
-Peak Memory Usage:  824 MB
+Peak Memory Usage:  864 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
@@ -1031,6 +1042,14 @@ parts you will be using. This will allow the tools to take advantage of any
 available performance and functional enhancements for this device. The latest
 stepping level for this device is '2'. Additional information on "stepping
 level" is available at support.xilinx.com.
+   "nandgate" is an NCD, version 3.2, device xc4vlx60, package ff668, speed -11
+This design is using the default stepping level (major silicon revision) for
+this device (1). Unless your design is targeted at devices of this stepping
+level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any
+available performance and functional enhancements for this device. The latest
+stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
 --------------------------------------------------------------------------------
 Release 14.4 Trace  (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
@@ -1061,19 +1080,19 @@ Timing summary:
 
 Timing errors: 0  Score: 0 (Setup/Max: 0, Hold: 0)
 
-Constraints cover 315425 paths, 0 nets, and 23851 connections
+Constraints cover 321675 paths, 0 nets, and 27026 connections
 
 Design statistics:
-   Minimum period:   9.569ns (Maximum frequency: 104.504MHz)
+   Minimum period:   9.554ns (Maximum frequency: 104.668MHz)
 
 
-Analysis completed Tue May  8 11:14:27 2018
+Analysis completed Thu May 10 17:00:40 2018
 --------------------------------------------------------------------------------
 
 Generating Report ...
 
 Number of warnings: 0
 Number of info messages: 3
-Total time: 7 secs 
+Total time: 13 secs 
 
 
