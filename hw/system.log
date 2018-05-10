@@ -9354,3 +9354,8 @@ Creating bit map...
 Saving bit stream in "system.bit".
 Bitstream generation is complete.
 Done!
+Writing filter settings....
+Done writing filter settings to:
+	/home/adam/RO-PUF/XPS-workspace/hw/etc/system.filters
+Done writing Tab View settings to:
+	/home/adam/RO-PUF/XPS-workspace/hw/etc/system.gui
